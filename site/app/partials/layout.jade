@@ -1,0 +1,30 @@
+doctype html
+html
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1")
+    link(rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css")
+    link(rel="stylesheet" type="text/css" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css")
+    link(rel="stylesheet" type="text/css" href="/css/app.css")
+    block scripts
+  body
+    div(class="container")
+      div(class="header")
+        div(class="title-container")
+          img(class="header-image-man-sitting" src="/images/blackflats-logo.jpg")
+          h1(class="header-title") Black Flats Rover Crew
+        div(class="navigation pure-menu pure-menu-horizontal pure-menu-scrollable")
+          ul(class="pure-menu-list")
+            li(class="pure-menu-item")
+              a(class="pure-menu-link" href="/about.html") About
+            li(class="pure-menu-item")
+              a(class="pure-menu-link" href="/activities.html") Activities
+            li(class="pure-menu-item")
+              a(class="pure-menu-link" href="/bp-award.html") BP Award
+            li(class="pure-menu-item")
+              a(class="pure-menu-link" href="/contact.html") Contact
+            li(class="pure-menu-item")
+              a(class="pure-menu-link" href="/members.html") Members
+      div(class="content")
+        block content
+      div(class="footer")
+        div Footer
